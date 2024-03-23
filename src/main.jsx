@@ -4,6 +4,7 @@ import App from './App.jsx'
 import './index.css'
 import Card from './Card.jsx'
 import Hook from './Hook.jsx'
+import Calculator from './calculator.jsx'
  const component =  ReactDOM.createRoot(document.getElementById('root'));
 
 
@@ -15,7 +16,10 @@ component.render(
 
 <>
 
-<Hook/>
+{/* <Hook/> */}
+
+
+<Calculator/>
 
 
 {/* <Card myname='shreetik' title='Ek number' ob={myobj} /> */}

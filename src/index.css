@@ -13,3 +13,9 @@ button{
     font-size: 1.3rem;
     cursor: pointer;
 }
+.d-flex{
+    display: flex;
+    margin-top: 15px;
+    gap: 10px;
+    cursor: pointer;
+}
